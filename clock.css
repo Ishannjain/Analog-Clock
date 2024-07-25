@@ -1,0 +1,37 @@
+.clockContainer{
+    background-image:url("300px-Horloĝo_001.svg.png") ;
+    background-size: contain;
+    height:45vw;
+    width:45vw;
+    margin:auto;
+    background-color: white;
+    position:relative;
+    
+}
+#hour,#minute,#second{
+    position:absolute;
+    background-color: black;
+    border-radius:10px;
+    transform-origin: bottom;
+}
+ #hour{
+    height:30%;
+    width:1.5%;
+    left:49.2%;
+    top:20%;
+    opacity:0.8
+} 
+#minute{
+    height:30%;
+    width:1.25%;
+    left:49.3%;
+    top:20%;
+    opacity:0.8
+} 
+#second{
+    height:35%;
+    width:1%;
+    left:49.4%;
+    top:15%;
+    opacity:0.8
+}
